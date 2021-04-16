@@ -1,7 +1,9 @@
 import { Route, Switch } from 'react-router-dom';
 
-import Home from './Home';
 
+
+import GeneralRoute from './Router/GeneralRoute';
+import AdminRouter from './Router/AdminRouter';
 
 
 
@@ -9,8 +11,14 @@ import Home from './Home';
 function App() {
   return (
     <Switch>
+
+
+      <Route path="/admin">
+        <AdminRouter />
+        {/* <GeneralRoute /> */}
+      </Route>
       <Route path="/">
-        <Home />
+        {/* <GeneralRoute /> */}
       </Route>
     </Switch>
 

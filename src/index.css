@@ -5,18 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #041c2c;
-  color: #fff;
+  /* background-color: #041c2c; */
+  /* color: #fff; */
   font-size: 17px;
 
 }
-
+/* 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
+} */
+/* 
 a {
   color: #fff;
   text-decoration: none;
@@ -77,5 +77,5 @@ material-icons.md-18 { font-size: 18px; }
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-content: center;
 
-}
+} */
 
