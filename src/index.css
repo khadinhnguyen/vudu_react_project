@@ -5,10 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #041c2c; */
+  background-color: #041c2c;
   /* color: #fff; */
   font-size: 17px;
 
+}
+
+.mt-57{
+    margin-top: 57px;
+}
+
+.pg-max-width{
+    max-width: 1365px;
 }
 /* 
 * {
