@@ -10,9 +10,18 @@ body {
   font-size: 17px;
 
 }
+/* Modify bootstrap classes */
+.col-lg-2{
+    max-width: 13.6%;
+}
+/* end modify bootstrap classes */
 
 .mt-57{
     margin-top: 57px;
+}
+
+.mt-70{
+    margin-top: 70px;
 }
 
 .pg-max-width{

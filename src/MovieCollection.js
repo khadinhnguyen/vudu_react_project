@@ -2,11 +2,11 @@ import {Container, Row, Col, Spinner} from 'react-bootstrap'
 import useSWR from 'swr';
 
 import SmallImgCard from './SmallImgCard';
-import './FeaturedSection.css';
+import './MovieCollection.css';
 
-export default function FeaturedSection({featuredTitle,featuredBy}){
+export default function FeaturedSection({Title,Group,Value}){
 
-    const {data:movies,error} = useSWR(`http://localhost:8080/movie-list-feature/${featuredBy}`);
+    const {data:movies,error} = useSWR(`http://localhost:8080/movie-list-${Group}/${Value}`);
 
     if(error) {        
         console.log(error);
@@ -26,7 +26,7 @@ export default function FeaturedSection({featuredTitle,featuredBy}){
     return (
         <div className='feature-section-container'>            
             <Container className="pg-max-width">
-            <h5>{featuredTitle}</h5>
+            <h5>{Title}</h5>
                 <Row>
                     {movies.map(result =>(
                         <Col xs={4} md={3} lg={2} key={result.id}>

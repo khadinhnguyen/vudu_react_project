@@ -37,7 +37,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/* <Header />    */}
+      <Header />   
       <Switch>        
         <Route path="/admin">
           <AdminRouter />

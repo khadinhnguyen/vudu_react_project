@@ -6,7 +6,7 @@ export default function SmallingCard ({movie}) {
 
 
     return (
-        <Card as={Link} to={`/product/${movie.id}`} >
+        <Card className="mt-4" as={Link} to={`/product/${movie.id}`} >
             <Card.Img variant="top" src={`../img/movie/${movie.smallPosterImg}`} />                                    
         </Card>
     )

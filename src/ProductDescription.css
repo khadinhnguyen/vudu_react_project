@@ -8,3 +8,7 @@
 .product-hero-background > div {
     background: linear-gradient(90deg,#051c2b 50%,transparent 70%);
 }
+
+.product-main-section{
+    min-height: 400px;
+}
