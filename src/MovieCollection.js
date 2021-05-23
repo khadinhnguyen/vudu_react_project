@@ -6,7 +6,7 @@ import './MovieCollection.css';
 
 export default function FeaturedSection({Title,Group,Value}){
 
-    const {data:movies,error} = useSWR(`http://localhost:8080/movie-list-${Group}/${Value}`);
+    const {data:movies,error} = useSWR(`https://khadinhnguyen-springboot-vudu.herokuapp.com/movie-list-${Group}/${Value}`);
 
     if(error) {        
         console.log(error);

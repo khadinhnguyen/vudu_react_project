@@ -15,7 +15,7 @@ export default function ProductDescription(){
     
     const {productId} = useParams();
     const [{basket},dispatch] = useStateValue();
-    const {data:movie,error} = useSWR(`http://192.168.0.59:8080/movie/${productId}`);
+    const {data:movie,error} = useSWR(`https://khadinhnguyen-springboot-vudu.herokuapp.com/movie/${productId}`);
 
     const addRent = () =>{
         dispatch({
