@@ -12,10 +12,10 @@ Front-end development with React and RestAPI development with Spring Boot to dem
 - Heroku for web deployment (https://khadinhnguyen-react-vudu.herokuapp.com/)
 
 ###### Home Page
-![GitHub Logo](/public/img/Readme/HomePage.png)
+![GitHub Logo](/public/img/Readme/HomePage.JPG)
 
 ###### Product Page
-![GitHub Logo](/public/img/Readme/ProductPage.png)
+![GitHub Logo](/public/img/Readme/ProductPage.JPG)
 
 ###### Checkout Page
-![GitHub Logo](/public/img/Readme/CheckOut.png)
+![GitHub Logo](/public/img/Readme/CheckOut.JPG)
